@@ -6,7 +6,7 @@ import org.testng.asserts.SoftAssert;
 import pomPages.BaseClassPom;
 
 public class FirstTest extends BaseClassPom{
-
+// Skillary first test
 	@Test
 	
 	public void firstTest( ) {
