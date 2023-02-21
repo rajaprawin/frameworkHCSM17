@@ -15,7 +15,7 @@ public class SkillraryDemoAppPagePom {
 	@FindBy(xpath="//span[@class='wrappers']/a[text()='Selenium Training']")
 														private WebElement SeleniumTrainingLink;
 	@FindBy(name="addresstype")							private WebElement categoryDropdown;
-	@FindBy(xpath="//a[text()='Contact us']")			private WebElement contactUsLink;
+	@FindBy(xpath="//a[text()='Contact Us']")			private WebElement contactUsLink;
 	
 	//Initialization
 	public  SkillraryDemoAppPagePom(WebDriver driver) {

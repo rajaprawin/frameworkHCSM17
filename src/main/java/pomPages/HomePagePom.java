@@ -13,8 +13,7 @@ public class HomePagePom {
 	@FindBy(name="q")							private WebElement searchTF;
 	@FindBy(xpath="//input[@value='go']")		private WebElement searchButton;
 	@FindBy(xpath="//a[text()=' GEARS ']")		private WebElement gearsTab;
-	@FindBy(xpath="//ul[contains(@class,'dropdown-menu gear_menu')]"
-			+ "/descendant::a[.=' SkillRary Demo App']")
+	@FindBy(xpath="//ul[contains(@class,'dropdown-menu')]/descendant::a[.=' SkillRary Demo APP']")
 												private WebElement demoAppLink;
 	
 	//Initialization
