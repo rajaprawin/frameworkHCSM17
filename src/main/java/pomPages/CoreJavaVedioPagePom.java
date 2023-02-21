@@ -19,10 +19,10 @@ public class CoreJavaVedioPagePom {
 		@FindBy(xpath="//span[text()='Add To Wishlist']")
 		private WebElement addToWishList;
 		
-		@FindBy (xpath="//a[span[text()='Add To Wishlist']")
+		@FindBy (xpath="//span[text()='Add To Wishlist']")
 		private WebElement addToWishlist;
 		
-		@FindBy(xpath="//a[@class='close_cookies]")
+		@FindBy(xpath="//a[@class='close_cookies']")
 		private WebElement closeCookiesIcon;
 		
 		
