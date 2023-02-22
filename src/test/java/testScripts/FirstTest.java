@@ -1,4 +1,4 @@
-package testScripts;							//17-2-23
+package testScripts;				//pass			//17-2-23
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;

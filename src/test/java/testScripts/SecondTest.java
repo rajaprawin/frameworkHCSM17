@@ -1,4 +1,4 @@
-package testScripts;
+package testScripts;             //pass
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
