@@ -3,9 +3,9 @@ package testScripts;  //pass
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import pomPages.BaseClassPom;
+import genericLibraries.BaseClass;
 
-public class ThirdTest extends BaseClassPom {
+public class ThirdTest extends BaseClass {
 
 	
 	@Test

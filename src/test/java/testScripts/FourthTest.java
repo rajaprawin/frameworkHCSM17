@@ -5,15 +5,17 @@ import java.util.List;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import pomPages.BaseClassPom;
+import genericLibraries.BaseClass;
 
-public class FourthTest  extends BaseClassPom{
+public class FourthTest  extends BaseClass{
 
 	@Test	
 	public void fourthTest() {
 		SoftAssert soft =new SoftAssert();
 		
 		home.clickGears();
+		
+		
 		home.clickSkillrarydemoApp();
 		web.handleChildBrowser();
 		

@@ -1,17 +1,20 @@
-package pomPages;										//16-2-23
+package genericLibraries;										//16-2-23
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
-import genericLibraries.ExcelUtility;
-import genericLibraries.IConstantPath;
-import genericLibraries.PropertiesFileUtility;
-import genericLibraries.WebDriverUtility;
+import pomPages.ContactUsPagePom;
+import pomPages.CoreJavaForSeleniumPagePom;
+import pomPages.CoreJavaVedioPagePom;
+import pomPages.HomePagePom;
+import pomPages.SeleniumTrainingPagePom;
+import pomPages.SkillraryDemoAppPagePom;
+import pomPages.TestingPagePom;
 
 
-public class BaseClassPom {
+public class BaseClass {
 	protected PropertiesFileUtility property;
 	protected ExcelUtility excel;
 	protected WebDriverUtility web;

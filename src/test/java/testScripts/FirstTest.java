@@ -3,9 +3,9 @@ package testScripts;				//pass			//17-2-23
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import pomPages.BaseClassPom;
+import genericLibraries.BaseClass;
 
-public class FirstTest extends BaseClassPom{
+public class FirstTest extends BaseClass{
 // Skillary first test
 	@Test
 	
